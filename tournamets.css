@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "ObitaemOstrov";
+    src: url("./fonts/ofont.ru_ObitaemOstrov.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-Black.ttf");
+}
+
+textarea:focus, input:focus
+{
+  outline: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background: #202020;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+
+/*    HEADER    */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #E9E9E9;
+    font-size: 24px;
+    font-family: "ObitaemOstrov";
+}
+
+.active_notification {
+    display: flex;
+}
+
+.profile_icon {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.avatar {
+    border-radius: 100%;
+    border: 1px solid #66FC6C;
+    padding: 5px;
+    margin-right: 30px;
+    margin-left: 33px;
+}
+
+.arrow-pointing-down {
+    cursor: pointer;
+}
+
+/* SPLITTER */
+
+.splitter {
+    display: flex;
+    margin-top: 48px;
+}
+
+/* NAV */
+
+nav a {
+    color: #E9E9E9;
+    margin-left: 60px;
+    font-weight: 300;
+}
+
+.main_nav div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.supported_nav div {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* MAIN */
+
+main {
+    margin-left: 159px;
+    margin-top: 24px;
+}
+
+.upcoming_tournaments h1 {
+    color: #66FC6C;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.tournaments_block {
+    background: #303331;
+    border-radius: 30px;
+}
+
+.tournaments_block .indent {
+    padding: 25px;
+}
+
+#tournaments_img {
+    width: 409px;
+    height: 257px;
+}
+
+.description_turner {
+    margin-top: 30px;
+}
+
+.description_turner h2 {
+    color: #66FC6C;
+}
+
+.splitter_tournaments {
+    display: flex;
+    margin-top: 15px;
+}
+
+.splitter_tournaments a {
+    color: #45A254;
+}
+
+.splitter_tournaments div {
+    display: flex;
+    align-items: center;
+}
+
+.splitter_tournaments img {
+    margin-right: 25px;
+}
+
+.splitter_tournaments .date_tournaments {
+    margin-left: 36px;
+}
