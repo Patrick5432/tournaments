@@ -122,6 +122,18 @@ nav a {
 main {
     margin-left: 159px;
     margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.heading_tournaments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading_tournaments a {
+    color: #66FC6C;
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 .upcoming_tournaments h1 {
@@ -212,4 +224,14 @@ main {
 .splitter_blocks {
     display: flex;
     flex-wrap: wrap;
+}
+
+.past_turners {
+    margin-top: 60px;
+}
+
+.past_turners h1 {
+    color: #66FC6C;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
